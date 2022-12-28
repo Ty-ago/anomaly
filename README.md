@@ -1,6 +1,6 @@
-# The Anomaly Project: A Modern Design Project ![Build Status](https://img.shields.io/badge/Status-In%20Deisgn-brightgreen)
-
-***
+# The Anomaly Project: A Modern Web Design Project 
+![Build Status](https://img.shields.io/badge/Status-In%20Deisgn-brightgreen)
+![Build Stability](https://img.shields.io/badge/Stability-Pre--Alpha-yellow)
 
 Hello and welcome to The Anomaly Project Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
@@ -45,7 +45,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ### _Style Guide_
 
-**In_Development**
+**In Development**
 
 #### _Typography_
 
