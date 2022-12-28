@@ -45,21 +45,49 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ### _Style Guide_
 
+**In_Development**
+
 #### _Typography_
+
+coming soon
 
 #### _Colors_
 
+coming soon
+
 #### _Imagery_
+
+coming soon
 
 #### _Tone_
 
+coming soon
+
 #### _themes_
+
+coming soon
 
 ### _Screen Shots_
 
+coming soon
+
 ## _Development_
 
+coming soon
+
 ## _Credits_
+
+### Designer/Developer
+
+Tyisiah Santiago
+
+### Photographers
+
+Tyisiah Santiago
+
+### Graphic designers
+
+Tyisiah Santiago
 
 ## _License_
 
@@ -70,8 +98,7 @@ MIT
 Email: Tyisiahsantiago12@gmail.com
 Website: <https://www.hudsonvalleywebdesigns.com>
 
-
 ***
 
 The Source: <https://github.com/Ty-ago/anomaly>
-MDN: <https://developer.mozilla.org>
+MDN (because why not?): <https://developer.mozilla.org>
