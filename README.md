@@ -28,7 +28,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ## _Current Features_
 
-- Coming Soon
+- Parallax effect: On the hero background, the hero text, and the third section background image.
 
 ## _Future Features_
 
