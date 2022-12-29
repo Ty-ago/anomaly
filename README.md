@@ -28,8 +28,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ## _Current Features_
 
-- Responsive Design
-- Parallax scrolling
+- Coming Soon
 
 ## _Future Features_
 
@@ -49,31 +48,31 @@ Anomaly is an implementation of modern web design and development practices for 
 
 #### _Typography_
 
-coming soon
+Coming Soon
 
 #### _Colors_
 
-coming soon
+Coming Soon
 
 #### _Imagery_
 
-coming soon
+Coming Soon
 
 #### _Tone_
 
-coming soon
+Coming Soon
 
 #### _themes_
 
-coming soon
+Coming Soon
 
 ### _Screen Shots_
 
-coming soon
+Coming Soon
 
 ## _Development_
 
-coming soon
+Coming Soon
 
 ## _Credits_
 
@@ -85,13 +84,9 @@ Tyisiah Santiago
 
 Tyisiah Santiago
 
-### Graphic designers
-
-Tyisiah Santiago
-
 ## _License_
 
-MIT
+MIT 
 
 ## _Contact Info_
 
