@@ -1,0 +1,268 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+@font-face {
+	font-family: "aceh";
+	src: url(/parallax/Final\ Fonts/Aceh-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "ailerons";
+	src: url(/parallax/Final\ Fonts/Ailerons-TrialVersion.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "aqua";
+	src: url(/parallax/Final\ Fonts/aqua.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "big john";
+	src: url(/parallax/Final\ Fonts/BIG_JOHN.otf) format("opentype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "cutive mono";
+	src: url(/parallax/Final\ Fonts/CutiveMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "eskool";
+	src: url(/parallax/Final\ Fonts/eskool.regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "obvia narrow";
+	src: url(/parallax/Final\ Fonts/Fontspring-DEMO-obvia_narrow_regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "major mono display";
+	src: url(/parallax/Final\ Fonts/MajorMonoDisplay-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "moon2.0";
+	src: url(/parallax/Final\ Fonts/Moon2.0-Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "noir medium";
+	src: url(/parallax/Final\ Fonts/Noir_medium.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "nova mono regular";
+	src: url(/parallax/Final\ Fonts/NovaMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "paralines regular";
+	src: url(/parallax/Final\ Fonts/Paralines-Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "poppins black";
+	src: url(/parallax/Final\ Fonts/Poppins-Black.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "poppins thin";
+	src: url(/parallax/Final\ Fonts/Poppins-Thin.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "red hat mono";
+	src: url(/parallax/Final\ Fonts/RedHatMono-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "rhizome";
+	src: url(/parallax/Final\ Fonts/RhizomeVariable-Trial.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "sabo filled";
+	src: url(/parallax/Final\ Fonts/Sabo-Filled.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "sabo regular";
+	src: url(/parallax/Final\ Fonts/Sabo-Regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "share tech mono";
+	src: url(/parallax/Final\ Fonts/ShareTechMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "slim joe";
+	src: url(/parallax/Final\ Fonts/Slim_joe.otf) format("opentype");
+}
+
+@font-face {
+	font-family: "text me one";
+	src: url(/parallax/Final\ Fonts/TextMeOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "urbanist";
+	src: url(/parallax/Final\ Fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "vt323";
+	src: url(/parallax/Final\ Fonts/VT323-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "wire one";
+	src: url(/parallax/Final\ Fonts/WireOne-Regular.ttf) format("truetype");
+}
+
+
+
+.full{
+	height: 100vh;
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.half{
+	height: 70vh;
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+}
+
+.two, .four{
+	background: #030401;
+}
+
+.three{
+	/* Attempt at parallax effect */
+
+	background-image: url("/images/HeroTextBackgroundNormalInverted.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	/* End attempt at parallax effect */
+}
+
+.five{
+	background: #F0EEEC;
+}
+
+#demo-text-background{
+
+
+	/* Attempt at parallax effect */
+
+	background-image: url("/images/HeroBackgroundNormal2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	/* End attempt at parallax effect */
+
+
+
+	/* Attempt at responsiveness */
+	
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+	/* End of attempt at responsiveness */
+
+}
+
+#demo-text {
+
+	/* Attempt at parallax effect */
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('/images/HeroTextBackgroundNormalInverted.jpg');
+	background-attachment: fixed;
+
+	/* End attempt at parallax effect */
+
+
+
+	/* Text styles */
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	font-size: 15vw;
+	font-family: 'rhizome', 'sabo filled', 'sabo regular', 'share tech mono', 'slim joe', 'text me one', 'urbanist', 'vt323', 'wire one', 'red hat mono', 'poppins thin', 'poppins black', 'paralines regular', 'nova mono regular', 'noir medium', 'moon2.0', 'major mono display', 'obvia narrow', 'cutive mono', 'big john', 'aqua', 'ailerons', 'aceh' ,Arial, Helvetica, serif;
+
+	/* End of text styles */
+
+
+	/* Attempt at responsiveness */
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+	/* End of attempt at responsiveness */
+
+}
+
+h2{
+	color: #F0EEEC;
+	font-size: 5rem;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	font-family: 'aceh', 'serif';
+}
+
+.dark{
+	color: #030401;
+}
+
+.gradient{
+
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	background: linear-gradient(transparent, 85%, rgba(3, 4, 1, 1));
+
+}
+
+.gradientMirrored{
+
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	background: linear-gradient(to bottom,rgba(3, 4, 1, 1), rgba(3, 4, 1, .1), transparent 50%, transparent 50%, transparent 50%, rgba(3, 4, 1, .1), rgba(3, 4, 1, 1));
+
+}
+
+.gradientReversed{
+
+	display: grid;
+    gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	background: linear-gradient(to bottom,rgba(3, 4, 1, 1), rgba(3, 4, 1, .1), transparent 50%, transparent 50%, transparent 50%, rgba(3, 4, 1, 0), rgba(3, 4, 1, 0));
+
+}
