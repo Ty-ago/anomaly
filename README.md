@@ -1,8 +1,8 @@
+![The Anomaly Project Banner Image](/images/Banner%20Image.jpg "Anomaly")
+
 # The Anomaly Project: A Modern Web Design Project 
 ![Build Status](https://img.shields.io/badge/Status-In%20Deisgn-brightgreen)
 ![Build Stability](https://img.shields.io/badge/Stability-Pre--Alpha-yellow)
-
-![The Anomaly Project Banner Image](/images/Banner%20Image.jpg "Anomaly")
 
 Hello and welcome to The Anomaly Project Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
@@ -52,7 +52,6 @@ Anomaly is an implementation of modern web design and development practices for 
 
 > 1. Ailerons
 > 2. Serif
-> 3. TBD
 
 #### _Current Pallet Consideration_
 
@@ -70,7 +69,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 #### _Imagery_
 
-Coming Soon
+> Coming Soon
 
 #### _Tone_
 
@@ -78,7 +77,7 @@ Coming Soon
 
 ### _Screen Shots_
 
-Coming Soon
+> Coming Soon
 
 ## _Development_
 
@@ -95,14 +94,14 @@ Coming Soon
 ### Designer/Developer
 
 #### Web:
-Tyisiah Santiago
+> Tyisiah Santiago
 
 #### Fonts: 
-[Adilson Gonzales](https://adilsongonzales.com/ailerons)
+> [Adilson Gonzales](https://adilsongonzales.com/ailerons)
 
 ### Photographers
 
-Tyisiah Santiago
+> Tyisiah Santiago
 
 ## _License_
 
@@ -111,9 +110,11 @@ MIT License
 ## _Contact Info_
 
 [Email](mailto:Tyisiahsantiago12@gmail.com)
+///
 [Website](https://www.hudsonvalleywebdesigns.com)
 
 ***
 
 [The Source](https://github.com/Ty-ago/anomaly)
+///
 [MDN (because why not?)](https://developer.mozilla.org)
