@@ -5,65 +5,26 @@
 	border: none;
 }
 
-@font-face {
-	font-family: "aceh";
-	src: url(/parallax/Final\ Fonts/Aceh-Light.ttf) format("truetype");
-}
 
 @font-face {
 	font-family: "ailerons";
-	src: url(/parallax/Final\ Fonts/Ailerons-TrialVersion.otf) format("opentype");
+	src: url(/fonts/Ailerons-TrialVersion.otf) format("opentype");
 }
 
 @font-face {
 	font-family: "aqua";
-	src: url(/parallax/Final\ Fonts/aqua.ttf) format("truetype");
+	src: url(/fonts/aqua.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: "big john";
-	src: url(/parallax/Final\ Fonts/BIG_JOHN.otf) format("opentype");
+	src: url(/fonts/BIG_JOHN.otf) format("opentype");
 	font-weight: bold;
 }
 
 @font-face {
-	font-family: "cutive mono";
-	src: url(/parallax/Final\ Fonts/CutiveMono-Regular.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "eskool";
-	src: url(/parallax/Final\ Fonts/eskool.regular.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "obvia narrow";
-	src: url(/parallax/Final\ Fonts/Fontspring-DEMO-obvia_narrow_regular.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "major mono display";
-	src: url(/parallax/Final\ Fonts/MajorMonoDisplay-Regular.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "moon2.0";
-	src: url(/parallax/Final\ Fonts/Moon2.0-Regular.otf) format("opentype");
-}
-
-@font-face {
 	font-family: "noir medium";
-	src: url(/parallax/Final\ Fonts/Noir_medium.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "nova mono regular";
-	src: url(/parallax/Final\ Fonts/NovaMono-Regular.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "paralines regular";
-	src: url(/parallax/Final\ Fonts/Paralines-Regular.otf) format("opentype");
+	src: url(/fonts/Noir_medium.otf) format("opentype");
 }
 
 @font-face {
@@ -78,52 +39,22 @@
 
 @font-face {
 	font-family: "red hat mono";
-	src: url(/parallax/Final\ Fonts/RedHatMono-VariableFont_wght.ttf) format("truetype");
+	src: url(/fonts/RedHatMono-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: "rhizome";
-	src: url(/parallax/Final\ Fonts/RhizomeVariable-Trial.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "sabo filled";
-	src: url(/parallax/Final\ Fonts/Sabo-Filled.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "sabo regular";
-	src: url(/parallax/Final\ Fonts/Sabo-Regular.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "share tech mono";
-	src: url(/parallax/Final\ Fonts/ShareTechMono-Regular.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "slim joe";
-	src: url(/parallax/Final\ Fonts/Slim_joe.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "text me one";
-	src: url(/parallax/Final\ Fonts/TextMeOne-Regular.ttf) format("truetype");
+	src: url(/fonts/Rhizome-ExtraLightTrial.otf) format("truetype");
 }
 
 @font-face {
 	font-family: "urbanist";
-	src: url(/parallax/Final\ Fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "vt323";
-	src: url(/parallax/Final\ Fonts/VT323-Regular.ttf) format("truetype");
+	src: url(/fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: "wire one";
-	src: url(/parallax/Final\ Fonts/WireOne-Regular.ttf) format("truetype");
+	src: url(/fonts/WireOne-Regular.ttf) format("truetype");
 }
 
 
@@ -163,7 +94,7 @@
 	background: #F0EEEC;
 }
 
-#demo-text-background{
+#hero-text-background{
 
 
 	/* Attempt at parallax effect */
@@ -188,7 +119,7 @@
 
 }
 
-#demo-text {
+#hero-text {
 
 	/* Attempt at parallax effect */
 
@@ -208,8 +139,9 @@
 	background-position: center;
 	background-size: cover;
 	text-align: center;
-	font-size: 15vw;
-	font-family: 'rhizome', 'sabo filled', 'sabo regular', 'share tech mono', 'slim joe', 'text me one', 'urbanist', 'vt323', 'wire one', 'red hat mono', 'poppins thin', 'poppins black', 'paralines regular', 'nova mono regular', 'noir medium', 'moon2.0', 'major mono display', 'obvia narrow', 'cutive mono', 'big john', 'aqua', 'ailerons', 'aceh' ,Arial, Helvetica, serif;
+	font-size: 25vw;
+	font-family: ailerons;
+    font-weight: 900;
 
 	/* End of text styles */
 

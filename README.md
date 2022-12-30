@@ -2,6 +2,8 @@
 ![Build Status](https://img.shields.io/badge/Status-In%20Deisgn-brightgreen)
 ![Build Stability](https://img.shields.io/badge/Stability-Pre--Alpha-yellow)
 
+![The Anomaly Project Banner Image](/images/Banner%20Image.jpg "Anomaly")
+
 Hello and welcome to The Anomaly Project Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
 ✨Happy Holidays ✨
@@ -32,7 +34,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ## _Future Features_
 
-- TBD
+- 3D components
 
 ## _Technologies_
 
@@ -46,13 +48,25 @@ Anomaly is an implementation of modern web design and development practices for 
 
 **In Development**
 
-#### _Typography_
+#### _Fonts_
 
-Coming Soon
+> 1. Ailerons
+> 2. Serif
+> 3. TBD
 
-#### _Colors_
+#### _Current Pallet Consideration_
 
-Coming Soon
+> 1. #F0EEEC
+> 2. #030401
+> 3. #2FCB07
+> 4. #001731
+> 5. #276D70
+> 6. #DEC4A8
+> 7. #1D9505
+> 8. #03284B
+> 9. #A173B3
+> 10. #7A20B0
+> 11. #A173B3
 
 #### _Imagery_
 
@@ -60,11 +74,7 @@ Coming Soon
 
 #### _Tone_
 
-Coming Soon
-
-#### _themes_
-
-Coming Soon
+> TBD
 
 ### _Screen Shots_
 
@@ -72,13 +82,23 @@ Coming Soon
 
 ## _Development_
 
-Coming Soon
+### _First Sprint_
+
+> Basic FE file/folder structure
+
+### _Second Sprint_
+
+> Basic page structure & partial styles
 
 ## _Credits_
 
 ### Designer/Developer
 
+#### Web:
 Tyisiah Santiago
+
+#### Fonts: 
+[Adilson Gonzales](https://adilsongonzales.com/ailerons)
 
 ### Photographers
 
@@ -86,14 +106,14 @@ Tyisiah Santiago
 
 ## _License_
 
-MIT 
+MIT License
 
 ## _Contact Info_
 
-Email: Tyisiahsantiago12@gmail.com
-Website: <https://www.hudsonvalleywebdesigns.com>
+[Email](mailto:Tyisiahsantiago12@gmail.com)
+[Website](https://www.hudsonvalleywebdesigns.com)
 
 ***
 
-The Source: <https://github.com/Ty-ago/anomaly>
-MDN (because why not?): <https://developer.mozilla.org>
+[The Source](https://github.com/Ty-ago/anomaly)
+[MDN (because why not?)](https://developer.mozilla.org)
