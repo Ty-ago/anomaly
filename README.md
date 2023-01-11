@@ -6,8 +6,6 @@
 
 Hello and welcome to The Anomaly Project Repository! If you have any suggestions for improvements or come across any bugs, feel free to create an issue and I'll incorporate it into one of the project's future sprints!
 
-✨Happy Holidays ✨
-
 ## Table of Contents
 
 ***
