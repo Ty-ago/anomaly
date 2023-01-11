@@ -27,8 +27,34 @@
         
     
         <section class="half two wordsContainer">
+
             <h2>Polymorphism</h2>
+
+            <section class="blobCanvas gradient">
+
+                <!-- THE CANVAS FOR THE 3D Blob -->
+
+                <canvas id="canvas3d"></canvas>
+    
+                <!-- THE END OF THE CANVAS -->
+
+
+                <!-- BEGINNING OF SCRIPT FOR 3D Blob -->
+                <script type="module">
+            
+                    import { Application } from './runtime.js';
+                    const canvas = document.getElementById('canvas3d');
+                    const app = new Application(canvas);
+                    app.load('./scene.splinecode');
+            
+                </script>
+
+                <!-- END OF SCRIPT FOR 3D Blob -->
+
+            </section>
+
             <p>one name many forms</p>
+
         </section>
     
     
@@ -58,7 +84,7 @@
 
     <footer>
         <p>Copyright © 2022</p>
-        <a href="https://www.hudsonvalleywebdesigns.com">{Contact Me}</a>
+        <a href="https://www.hudsonvalleywebdesigns.com"><p class="footerButton">{Contact Me}</p></a>
     </footer>
 
 </body>

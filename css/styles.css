@@ -5,64 +5,19 @@
 	border: none;
 }
 
-
 @font-face {
 	font-family: "ailerons";
 	src: url(/fonts/Ailerons-TrialVersion.otf) format("opentype");
 }
 
 @font-face {
-	font-family: "aqua";
-	src: url(/fonts/aqua.ttf) format("truetype");
+	font-family: "PP Neue Montreal Thin";
+	src: url(/fonts/PPNeueMontreal-Thin.otf) format("opentype");
 }
-
-@font-face {
-	font-family: "big john";
-	src: url(/fonts/BIG_JOHN.otf) format("opentype");
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: "noir medium";
-	src: url(/fonts/Noir_medium.otf) format("opentype");
-}
-
-@font-face {
-	font-family: "poppins black";
-	src: url(/parallax/Final\ Fonts/Poppins-Black.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "poppins thin";
-	src: url(/parallax/Final\ Fonts/Poppins-Thin.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "red hat mono";
-	src: url(/fonts/RedHatMono-VariableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "rhizome";
-	src: url(/fonts/Rhizome-ExtraLightTrial.otf) format("truetype");
-}
-
-@font-face {
-	font-family: "urbanist";
-	src: url(/fonts/Urbanist-VariableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: "wire one";
-	src: url(/fonts/WireOne-Regular.ttf) format("truetype");
-}
-
-
 
 .full{
 	height: 100vh;
 	display: grid;
-    gap: 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
@@ -71,7 +26,7 @@
 	display: grid;
     gap: 1rem;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-
+	padding: 10vh;
 }
 
 .two, .four{
@@ -165,7 +120,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	font-family: 'aceh', 'serif';
+	font-family: 'PP Neue Montreal Thin';
 }
 
 p{
@@ -173,6 +128,11 @@ p{
     color: #F0EEEC;
     font-size: 1.5rem;
     font-weight: 800;
+	font-family: "PP Neue Montreal Thin";
+}
+
+.footerButton{
+	font-size: .75rem;
 }
 
 .dark{
@@ -233,4 +193,14 @@ footer>p{
 a{
     color:#F0EEEC;
     text-decoration: none;
+}
+
+.blobCanvas{
+
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+	display: block;
+	width: 100vw;
+
 }
