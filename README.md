@@ -98,7 +98,7 @@ The live website is hosted on [Netlify](https://www.netlify.com/) and can be see
 
 ## _Credits_
 
-### Designer/Developer
+### Designers/Developers
 
 #### Web:
 > Tyisiah Santiago
