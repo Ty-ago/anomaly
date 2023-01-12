@@ -24,7 +24,7 @@ Hello and welcome to The Anomaly Project Repository! If you have any suggestions
 
 ## _General Info_
 
-Anomaly is an implementation of modern web design and development practices for front-end oriented applications that run dominantly on client-side. The intent of this project is to convey my ability to develop, design, and deploy visually gripping web precences within these web trends and in accordance with the WCAG 2.1 AA rating. The Project is a responsive designed static web application, built by hand and ever morphing as trends and practices evolve.
+Anomaly is an implementation of modern web design and development practices for front-end oriented applications that run dominantly on client-side. The intent of this project is to convey my ability to develop, design, and deploy visually gripping web precences within these web trends and in accordance with the WCAG 2.1 AA rating. The Project is a responsive designed, static web application, built by hand, and ever morphing, as trends, practices, and my ability to set time aside to work on it, evolve.
 
 The live website is hosted on [Netlify](https://www.netlify.com/) and can be seen [Here](https://anomaly.netlify.app/)
 
