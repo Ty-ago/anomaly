@@ -34,7 +34,7 @@ Anomaly is an implementation of modern web design and development practices for 
 
 ## _Future Features_
 
-- 3D components
+- Horizontal text scroll
 
 ## _Technologies_
 
@@ -51,7 +51,7 @@ Anomaly is an implementation of modern web design and development practices for 
 #### _Fonts_
 
 > 1. Ailerons
-> 2. Serif
+> 2. PP Neue Montreal Thin
 
 #### _Current Pallet Consideration_
 
@@ -95,9 +95,11 @@ Anomaly is an implementation of modern web design and development practices for 
 
 #### Web:
 > Tyisiah Santiago
+> spline
 
 #### Fonts: 
 > [Adilson Gonzales](https://adilsongonzales.com/ailerons)
+> [Mat Desjardins at PanGramPanGram Foundary](https://pangrampangram.com/products/neue-montreal)
 
 ### Photographers
 
