@@ -102,7 +102,7 @@ The live website is hosted on [Netlify](https://www.netlify.com/) and can be see
 
 #### Web:
 > Tyisiah Santiago
-> Spline
+> [Spline](spline.design)
 
 #### Fonts: 
 > [Adilson Gonzales](https://adilsongonzales.com/ailerons)
