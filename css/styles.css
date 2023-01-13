@@ -15,6 +15,11 @@
 	src: url(/fonts/PPNeueMontreal-Thin.otf) format("opentype");
 }
 
+@font-face {
+	font-family: "PP Neue Montreal Medium";
+	src: url(/fonts/PPNeueMontreal-Medium.otf) format("opentype");
+}
+
 .full{
 	height: 100vh;
 	display: grid;
@@ -36,17 +41,19 @@
 .three{
 	/* Attempt at parallax effect */
 
-	background-image: url("/images/HeroTextBackgroundNormalInverted.jpg");
+	/* background-image: url("/images/HeroTextBackgroundNormalInverted.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover; */
 
 	/* End attempt at parallax effect */
+
+	background-color: #030401;
 }
 
 .five{
-	background: #F0EEEC;
+	background: #030401;
 }
 
 #hero-text-background{
@@ -113,26 +120,53 @@
 }
 
 h2{
-	color: #F0EEEC;
-	font-size: 5rem;
+	font-size: 4rem;
 	text-align: center;
-	display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 	font-family: 'PP Neue Montreal Thin';
 }
 
 p{
     text-align: center;
-    color: #F0EEEC;
     font-size: 1.5rem;
-    font-weight: 800;
 	font-family: "PP Neue Montreal Thin";
 }
 
-.footerButton{
-	font-size: .75rem;
+.neonGreen{
+	color: rgba(103,223,68,1);
+	text-shadow: 
+	0 0 20px #fff, 
+	0 0 30px #67df44, 
+	0 0 40px #67df44, 
+	0 0 50px #67df44, 
+	0 0 60px #67df44, 
+	0 0 70px #67df44, 
+	0 0 80px #67df44;
+}
+
+h2.neonGreen{
+	color: rgb(83, 179, 54);
+	text-shadow: 
+	0 0 2px #fff, 
+	0 0 5px #67df44, 
+	0 0 10px #67df44, 
+	0 0 20px #67df44, 
+	0 0 30px #67df44, 
+	0 0 40px #67df44, 
+	0 0 50px #67df44;
+}
+
+.neonBlue{
+	font-family: "PP Neue Montreal Medium";
+	font-size: 2rem;
+	color: rgb(70, 96, 190);
+	text-shadow: 
+	0 0 2px rgb(193, 212, 255), 
+	0 0 5px #3f81d2, 
+	0 0 10px #0073ff, 
+	0 0 20px #0073ff, 
+	0 0 30px #0073ff, 
+	0 0 40px #0004ff,
+	0 0 50px #0073ff; 
 }
 
 .dark{
@@ -181,19 +215,26 @@ footer{
     background: #030401;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 7vh;
+    height: 35vh;
 }
 
 footer>p{
-    font-size: 1rem;
+    font-size: .75rem;
+	margin-bottom: 2vh;
 }
 
 a{
-    color:#F0EEEC;
     text-decoration: none;
+	margin-top: 5vh;
 }
+
+
+
+
+
+/* BEGINNING OF THE 3D BLOB CODE */
 
 .blobCanvas{
 
@@ -203,4 +244,66 @@ a{
 	display: block;
 	width: 100vw;
 
+
 }
+
+/* END OF THE 3D BLOB CODE */
+
+
+
+
+
+/* BEGINNING OF "CONTACT ME" BUTTON CODE */
+
+
+.footerButton {
+	--glow-color: rgba(208, 161, 253, 1);
+	--glow-spread-color: rgba(191, 123, 255, 0.781);
+	--enhanced-glow-color: rgb(231, 206, 255);
+	--btn-color: rgb(118, 73, 161);
+	border: .25em solid var(--glow-color);
+	padding: 1em 3em;
+	color: var(--glow-color);
+	font-size: 15px;
+	font-weight: bold;
+	background-color: var(--btn-color);
+	border-radius: 1em;
+	outline: none;
+	box-shadow: 0 0 1em .25em var(--glow-color),
+		   0 0 4em 1em var(--glow-spread-color),
+		   inset 0 0 .75em .25em var(--glow-color);
+	text-shadow: 0 0 .5em var(--glow-color);
+	position: relative;
+	transition: all 0.3s;
+	font-family: "PP Neue Montreal Medium";
+   }
+   
+   .footerbutton::after {
+	pointer-events: none;
+	content: "";
+	position: absolute;
+	top: 120%;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--glow-spread-color);
+	filter: blur(2em);
+	opacity: .7;
+	transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   .footerButton:hover {
+	color: var(--btn-color);
+	background-color: var(--glow-color);
+	box-shadow: 0 0 1em .25em var(--glow-color),
+		   0 0 4em 2em var(--glow-spread-color),
+		   inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   .footerButton:active {
+	box-shadow: 0 0 0.6em .25em var(--glow-color),
+		   0 0 2.5em 2em var(--glow-spread-color),
+		   inset 0 0 .5em .25em var(--glow-color);
+   }
+
+/* END OF "CONTACT ME" BUTTON CODE */
